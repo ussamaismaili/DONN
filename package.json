@@ -6,10 +6,12 @@
   "scripts": {
     "test": "jest",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ismaili Oussama",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.2",
@@ -19,7 +21,8 @@
     "style-loader": "^3.3.1",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.1"
+    "webpack-dev-server": "^4.9.1",
+    "gh-pages": "^4.0.0"
   },
   "dependencies": {
     "jsdom": "^19.0.0",
@@ -31,7 +34,7 @@
     "url": "git+https://github.com/ussamaismaili/DONN.git"
   },
   "bugs": {
-    "url": "https://github.com/ussamaismaili/DONNissues"
+    "url": "https://github.com/ussamaismaili/DONN/issues"
   },
-  "homepage": "https://github.com/ussamaismaili/DONN#readme"
+  "homepage": "https://ussamaismaili.github.io/DONN"
 }
