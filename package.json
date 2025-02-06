@@ -28,10 +28,10 @@
   "main": "webpack.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gopxfs/To-do-list-website.git"
+    "url": "git+https://github.com/ussamaismaili/DONN.git"
   },
   "bugs": {
-    "url": "https://github.com/Gopxfs/To-do-list-website/issues"
+    "url": "https://github.com/ussamaismaili/DONNissues"
   },
-  "homepage": "https://github.com/Gopxfs/To-do-list-website#readme"
+  "homepage": "https://github.com/ussamaismaili/DONN#readme"
 }
