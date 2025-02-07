@@ -8,15 +8,16 @@
 /* GLOBAL */
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow-y: scroll;
   margin: 0;
   background-image: url('./images/574444-business-coffee.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 body * {
@@ -133,6 +134,8 @@ body * {
   border-bottom: 0;
   width: 100%;
   background-color: rgb(45, 32, 12);
+  border-radius: 4% 14%;
+  border-radius: 29% 31%;
 }
 
 #addDescription:focus,
@@ -266,4 +269,68 @@ body * {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+/* CONTENT WRAPPER */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 12%;
+}
+
+/* ABOUT US */
+#about {
+  width: 60%;
+  max-width: 800px;
+  background-color: rgb(45, 32, 12);
+  padding: 20px;
+  border-radius: 4% 14%;
+  box-shadow: 9px 16px 30px black;
+  text-align: center;
+  color: rgb(219, 219, 219);
+  margin-bottom: 20px;
+}
+#about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+#about p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+#about a {
+  color: rgb(147, 95, 18);
+  text-decoration: none;
+}
+#about a:hover {
+  text-decoration: underline;
+}
+
+/* HOW TO USE */
+#how-to-use {
+  width: 60%;
+  max-width: 800px;
+  background-color: rgb(45, 32, 12);
+  padding: 20px;
+  border-radius: 4% 14%;
+  box-shadow: 9px 16px 30px black;
+  text-align: center;
+  color: rgb(219, 219, 219);
+  margin-bottom: 10%;
+  margin-top: 6%;
+}
+#how-to-use h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+#how-to-use ol {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 500px;
+}
+#how-to-use li {
+  font-size: 1.2em;
+  margin-bottom: 15px;
 }
