@@ -111,7 +111,7 @@ body * {
 
 #listTitle {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   padding: 12px;
   border-bottom: 0;
   text-align: center;
@@ -127,7 +127,7 @@ body * {
 }
 
 #addDescription {
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 15px;
   padding: 12px;
   border-bottom: 0;
@@ -223,7 +223,7 @@ body * {
 }
 
 #clearCompleted {
-  font-size: 18px;
+  font-size: 14px;
   padding: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
