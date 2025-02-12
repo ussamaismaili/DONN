@@ -9,7 +9,7 @@
 - Webpack
 
 ## Live demo:
-[Live Demo](https://github.com/ussamaismaili/DONN/dist)
+[Live Demo](https://github.com/ussamaismaili/DONN/)
 
 ## Authors:
 -Ismaili Oussama
